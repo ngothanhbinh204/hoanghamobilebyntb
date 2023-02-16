@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Hà Mobile_By NgoThanhBinh</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+        <divc id="header">
+        <div class="row1">
+            <div class="row1text">
+                <a href="#">Bản Mobile</a>|
+                <a href="#">Giới Thiệu</a>|
+                <a href="#">Sản phẩm đã xem</a>|
+                <a href="#">Trung Tâm Bảo Hành</a>|
+                <a href="#">Hệ Thống 124 Siêu Thị</a>|
+                <a href="#">Tuyển Dụng</a>|
+                <a href="#">Tra cứu đơn hàng</a>|
+                <a href="#">Đăng nhập</a>|
+            </div>
+        </div>
+     <div class="heading">
+            <div class="container-heading">
+              <div class="logo">
+                <a href="#" title="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ"></a>
+                <img src="images/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+              </div>
+              <div class="search-box">
+                <form method="get" action="/tim-kiem" onsubmit="return submitSearch(This);"
+                enctype="application/x-www-form-urlencoded">
+                    <div class="boder">
+                      <input type="text" placeholder="Hôm nay bạn cần tìm kiếm gì?" 
+                      autocomplete="off">
+                      <button type="submit" class="search"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                </div>
+                </form>
+              </div>
+              <div class="order-tools">
+                <div class="checkdonhang">
+                    <a id="btncheckorder" href="#"> <span class="icon"> 
+                      <i class="fa fa-truck" aria-hidden="true"></i></span>
+                    <span class="text">Kiểm Tra Đơn Hàng</span> 
+                </a>
+                </div>
+                <div class="giodo">
+                    <a href="#">
+                        <span class="icongiodo"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <nav style="z-index: 1000;">
+          <div class="container-menu">
+            <ul class="root">
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-mobile " aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐIỆN THOẠI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐỒNG HỒ </span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-laptop " aria-hidden="true"></i>
+                  <span class="textdienthoai">LAPTOP</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-desktop " aria-hidden="true"></i>
+                  <span class="textdienthoai">MÀN HÌNH</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-television " aria-hidden="true"></i>
+                  <span class="textdienthoai">SMART TV</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-keyboard-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">TABLE</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-headphones " aria-hidden="true"></i>
+                  <span class="textdienthoai">ÂM THANH</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-home " aria-hidden="true"></i>
+                  <span class="textdienthoai">SMART HOME</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-plug " aria-hidden="true"></i>
+                  <span class="textdienthoai">PHỤ KIỆN</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-gamepad " aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐỒ CHƠI CÔNG NGHỆ</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-arrows " aria-hidden="true"></i>
+                  <span class="textdienthoai">MÁY TRÔI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-wrench " aria-hidden="true"></i>
+                  <span class="textdienthoai">SỮA CHỮA</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-address-card-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">SIM THẺ</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-newspaper-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">TIN TỨC</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                  <span class="textdienthoai">ƯU ĐÃI</span>
+                  </div>
+                </a>
+              </li>
+              
+             
+            </ul>
+          </div>
+        </nav>
+        
+    </div>
+  </div>
+  <article>
+   <div class="ảnh-tỉnh">
+    <img src="images/ảnhlogo.jpg" alt="">
+   </div>
+   <div class="banner1">
+    <img src="images/ip14-promax-tet-2023mobile.png" width="1200"  height="500px" alt="">
+   </div>
+    
+      <div class="row2">
+        <strong>
+          <div class="box1">Iphone 14ProMax Giảm Sốc</div>
+        <div class="box1">Xiaomi TV 2 Series</div>
+        <div class="box1">Z-Flod4, Z-Flip4 - Ưu đãi tết 2023</div>
+        <div class="box1">Máy Lọc Clair</div>
+        </strong>
+      </div>
+      <div class="banner2">
+        <div class="banner21"><img src="images/sanphamhot-a73.png" alt=""></div>
+        <div class="banner21"><img src="images/sanphamhot-apple.png" alt=""></div>
+        <div class="banner21"><img src="images/r4.png" alt=""></div>
+        <div class="banner21"><img src="images/paddd.png" width="300px" alt=""></div>
+        <!-- <img src="images/op-02.jpg" align="center" width="1200px" height="500px" alt=""> -->
+      </div>
+      <div class="qqq">
+        <div class="flashsaletext">F <i class="fa fa-bolt" aria-hidden="true"></i>
+          ASH SALE ONLINE</div>
+        <div class="boxtest "> 
+            <a href="#">
+              <strong>Đồng Hồ/ Phụ Kiện</strong>
+            </a>
+        </div>
+        <div class="boxtest ">
+          <a href="#"><strong>Laptop/Màn Hình/TV</strong></a>
+        </div>
+        <div class="boxtest">
+          <a href="#">
+            <div class="b3">
+              <strong>Điện Thoai/Table</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="flashsale">
+        <h3>F <i class="fa fa-bolt" aria-hidden="true"></i>
+          ASH SALE ONLINE</h3>
+          <div class="blockfs">
+              <a href="#"><strong>Điện Thoai/Table</strong></a>
+              <a href="#"><strong>Đồng Hồ/Phụ Kiện</strong></a>
+          </div>
+       </div> -->
+
+       <!-- <div class="smartphone">
+           <div class="phone"> 
+            <div class="sp1">
+              <div class="boxphone" >
+                <div class="boxphone1">
+                  <img src="images/phone1.png" alt="">
+                  <div class="tenphone">
+                    Xiaomi Redmi 10C 4Gb/128GB - Chính hãng
+                  </div>
+                  <div class="giaphone">
+                   <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+              
+              <div class="sp2">
+                <div class="boxphone" >
+                  <div class="boxphone2">
+                    <img src="images/phone2.png" alt="">
+                    <div class="tenphone">
+                      Redmi Note 115 8GB/128GB - Chính hãng
+                    </div>
+                    <div class="giaphone">
+                     <strong>5,750,000 <sup><u>đ</u></sup> <del><small>6,690,000 <sup><u>đ</u></sup></strong> </small></del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+             
+              <div class="sp3">
+                <div class="boxphone" >
+                  <div class="boxphone3">
+                    <img src="images/phone3.png" alt="">
+                    <div class="tenphone">
+                      Reno8 Z 5G - Chính hãng
+                    </div>
+                    <div class="giaphone">
+                     <strong>8,890,000 <sup><u>đ</u></sup> <del><small>9,790,000 <sup><u>đ</u></sup></strong> </small></del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="sp4">
+                <div class="boxphone" >
+                  <div class="boxphone4">
+                    <img src="images/phone4.png" alt="">
+                    <div class="tenphone">
+                      SamSung Galaxy ZFold4 - 256GB - Chính hãng
+                    </div>
+                    <div class="giaphone">
+                     <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    
+     
+        <div class="apple">
+          <div class="apple-authorised-reseller">
+            <span><a href="#">APPLE AUTHORISED RESELLER </a></span>
+          </div> -->
+          
+    </article>
+    <!-- <div class="qqq">
+      Noidung
+      <div class="boxtest">
+        noidung
+      </div>
+      <div class="boxtest">
+        noi dung
+      </div>
+    </div> -->
+    <div class="smartphone">
+      <div class="phone">
+        <div class="phone1">
+          <div class="boxphone1">
+            <img class="imgphone" src="images/phone1.png" alt="">
+            <div class="tenphone">
+              Xiaomi Redmi 10C 4Gb/128GB - Chính hãng
+            </div>
+            <div class="giaphone">
+             <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="phone">
+        <div class="boxphone" >
+          <div class="boxphone2">
+            <img class="imgphone" src="images/phone2.png" alt="">
+            <div class="tenphone">
+              Redmi Note 115 8GB/128GB - Chính hãng
+            </div>
+            <div class="giaphone">
+             <strong>5,750,000 <sup><u>đ</u></sup> <del><small>6,690,000 <sup><u>đ</u></sup></strong> </small></del>
+            </div>
+          </div>
+        </div>
+     </div>
+
+      <div class="phone">
+        <div class="boxphone3">
+          <img class="imgphone" src="images/phone3.png" alt="">
+          <div class="tenphone">
+            Reno8 Z 5G - Chính hãng
+          </div>
+          <div class="giaphone">
+           <strong>8,890,000 <sup><u>đ</u></sup> <del><small>9,790,000 <sup><u>đ</u></sup></strong> </small></del>
+          </div>
+        </div>
+      </div>
+
+      <div class="phone">
+        <div class="boxphone4">
+          <img class="imgphone" src="images/phone4.png" alt="">
+          <div class="tenphone">
+            SamSung GalaxyZFold4-256GB - Chính hãng
+          </div>
+          <div class="giaphone">
+           <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <aside>
+      <div class="cothebansethich">
+        <div class="textcothebansethich">
+          <a href="#"><strong>CÓ THỂ BẠN SẼ THÍCH</strong></a>
+        </div>
+      </div>
+
+      <div class="other">
+        <div class="other1">
+          <div class="other2">
+              <img class="imgphone" src="images/iphone6.png" alt="">
+              <div class="tenphone">
+                Apple iPhone 13 - Chính hãng VN/A
+              </div>
+              <div class="giaphone">
+               <strong>17,590,000 <u>đ</u>
+              </div>
+          </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/watch.png" alt="">
+                <div class="tenphone">
+                  Huewei Watch GT3 SE - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>3,350,000 <u>đ</u> <del><small>4,490,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/samsung.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy Z Flip4 - 128GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>17,790,000 <sup><u>đ</u></sup> <del><small>23,990,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/phone7.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy ZFlod4 - 256GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>34,290,000 <u>đ</u> <del><small>40,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+          
+            <div class="other2">
+                <img class="imgphone" src="images/phone8.png" alt="">
+                <div class="tenphone">
+                  Nokia G11 Plus 3GB/32GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>2,390,000 <sup><u>đ</u></sup> <del><small>3,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    </aside>
+
+    <nav class="boxhome1">
+      <div class="apple-authorised-reseller">
+          <h4>
+            <a href="#"><strong>APPLE AUTHORISED RESELLER</strong></a>
+          </h4>
+      </div>
+
+      <div class="box-product-home lts-product">
+        <div class="item">
+          <img src="images/iphone14promax_box-home.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>32,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/macbook.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">MacBook Air 13" 2020 - M1 256GB - Chính hãng Apple Việt Nam</a>
+            <div class="giaphone2">
+              <strong>22,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/airpot.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/iphonedo.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/iphone12trangtim.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+      </div>
+
+
+      <div class="box-product-home lts-product">
+        <div class="item">
+          <img src="images/iphone14.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/s23-xang.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/iphone14-xanh.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/ipad.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/iphone14promax_box-home.png" alt="">
+          <div class="sticker-apple sticker-apple-left"> <img class="logoapple" src="images/logoapple.png" alt=""> </div>
+          <div class="info"> <a href="#">Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+      </div>
+      
+        <div class="apple-authorised-reseller">
+          <h4><strong><a href="#">Điện Thoại Nổi Bật</a></strong></h4>
+
+        </div>
+
+      <div class="box-product-home lts-product">
+        <div class="item">
+          <img src="images/phonelua.png" alt="">
+          
+          <div class="info"> <a href="#">TECNO POVA 4 PRO 8GB/128GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>4,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/phone15.png" alt="">
+          
+          <div class="info"> <a href="#">Samsung Galaxy S23 - 8GB/256GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>24,390,000 <sup><u>đ</u></sup> </strong> <del><small>23,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/phonexanh.png" alt="">
+          
+          <div class="info"> <a href="#">Xiaomi 12T - Chính hãng</a>
+            <div class="giaphone2">
+              <strong>11,390,000 <sup><u>đ</u></sup> </strong> <del><small>12,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/c30s.png" alt="">
+          
+          <div class="info"> <a href="#">Realme C30s 2GB/32GB - Chính hãng</a>
+            <div class="giaphone2">
+              <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+
+        <div class="item">
+          <img src="images/z-fold-4-1.png" alt="">
+          
+          <div class="info"> <a href="#">Samsung Galaxy Z Flip4-128GB - Chính hãng VN/A</a>
+            <div class="giaphone2">
+              <strong>16,390,000 <sup><u>đ</u></sup> </strong> <del><small>23,390,000 <sup><u>đ</u></sup></small></del>
+            </div>
+          </div>
+          
+          <div class="note">
+            <span class="KM">KM</span>
+            <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+            <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+          </div>  
+        </div>
+      </div>
+
+      <div class="apple-authorised-reseller">
+        <h4><strong><a href="#">Đồng Hồ Thông Minh</a></strong></h4>
+
+      </div>
+
+    <div class="box-product-homewatch">
+      <div class="itemwatch">
+        <img src="images/watch1.png" alt="">
+        
+        <div class="info"> <a href="#">Apple Watch Series 7 GPS - Chính hãng VN/A</a>
+          <div class="giaphone2">
+            <strong>4,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+          </div>
+        </div>
+        
+        <div class="notewatch">
+          <span class="KMwatch">KM</span>
+          <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+          <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+        </div>  
+      </div>
+
+      <div class="itemwatch">
+        <img src="images/watch2.png" alt="">
+        
+        <div class="info"> <a href="#"> - Chính hãng VN/A</a>
+          <div class="giaphone2">
+            <strong>24,390,000 <sup><u>đ</u></sup> </strong> <del><small>23,390,000 <sup><u>đ</u></sup></small></del>
+          </div>
+        </div>
+        
+        <div class="notewatch">
+          <span class="KMwatch">KM</span>
+          <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+          <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+        </div>  
+      </div>
+
+      <div class="itemwatch">
+        <img src="images/watch3.png" alt="">
+        
+        <div class="info"> <a href="#">Xiaomi 12T - Chính hãng</a>
+          <div class="giaphone2">
+            <strong>11,390,000 <sup><u>đ</u></sup> </strong> <del><small>12,390,000 <sup><u>đ</u></sup></small></del>
+          </div>
+        </div>
+        
+        <div class="notewatch">
+          <span class="KMwatch">KM</span>
+          <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+          <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+        </div>  
+      </div>
+
+      <div class="itemwatch">
+        <img src="images/watch4.png" alt="">
+        
+        <div class="info"> <a href="#">Realme C30s 2GB/32GB - Chính hãng</a>
+          <div class="giaphone2">
+            <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+          </div>
+        </div>
+        
+        <div class="notewatch">
+          <span class="KMwatch">KM</span>
+          <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+          <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+        </div>  
+      </div>
+
+      <div class="itemwatch">
+        <img src="images/watch5.png" alt="">
+        
+        <div class="info"> <a href="#">Samsung Galaxy Z Flip4-128GB - Chính hãng VN/A</a>
+          <div class="giaphone2">
+            <strong>16,390,000 <sup><u>đ</u></sup> </strong> <del><small>23,390,000 <sup><u>đ</u></sup></small></del>
+          </div>
+        </div>
+        
+        <div class="notewatch">
+          <span class="KMwatch">KM</span>
+          <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+          <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+        </div>  
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="apple-authorised-reseller">
+      <h4>
+        <a href="#"><strong>Laptop Nổi Bật</strong></a>
+      </h4>
+  </div>
+
+  <div class="box-product-home lts-product">
+    <div class="item">
+      <img src="images/laptop1.png" alt="">
+      <div class="sticker-apple sticker-apple-left"> <img class="logo_24" src="images/logo_24.png" alt=""> </div>
+      <div class="info"> <a href="#">Laptop Gigabyte Gaming GS GE 51VN213SH i5 12500H/16Gb/15.6'FHD</a>
+        <div class="giaphone2">
+          <strong>22,390,000 <sup><u>đ</u></sup> </strong> <del><small>25,390,000 <sup><u>đ</u></sup></small></del>
+        </div>
+      </div>
+      
+      <div class="note">
+        <span class="KM">KM</span>
+        <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+        <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+      </div>  
+    </div>
+
+    <div class="item">
+      <img src="images/laptop2.png" alt="">
+      <div class="sticker-apple sticker-apple-left"> <img class="logo_24" src="images/logo_24.png" alt=""> </div>
+      <div class="info"> <a href="#">Laptop Acer TravelMate B3 TMB311 31 C2HB N4020/4GB?128GB/Win11 - Chính Hãng</a>
+        <div class="giaphone2">
+          <strong>22,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+        </div>
+      </div>
+      
+      <div class="note">
+        <span class="KM">KM</span>
+        <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+        <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+      </div>  
+    </div>
+
+    <div class="item">
+      <img src="images/laptop3.png" alt="">
+      <div class="sticker-apple sticker-apple-left"> <img class="logo_24" src="images/logo_24.png" alt=""> </div>
+      <div class="info"> <a href="#">Laptop ASUS TUF Gaming FX506LHB - HN188W - i5/10300H/8GB/512GB/VGA 4GB</a>
+        <div class="giaphone2">
+          <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+        </div>
+      </div>
+      
+      <div class="note">
+        <span class="KM">KM</span>
+        <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+        <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+      </div>  
+    </div>
+
+    <div class="item">
+      <img src="images/laptop4.png" alt="">
+      <div class="sticker-apple sticker-apple-left"> <img class="logo_24" src="images/logo_24.png" alt=""> </div>
+      <div class="info"> <a href="#">Laptop MSI Modern 15 A11MU - 848VN - i5-1155G7/8GB/512GB/15.6"FHD</a>
+        <div class="giaphone2">
+          <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+        </div>
+      </div>
+      
+      <div class="note">
+        <span class="KM">KM</span>
+        <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+        <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+      </div>  
+    </div>
+
+    <div class="item">
+      <img src="images/laptop5.png" alt="">
+      <div class="sticker-apple sticker-apple-left"> <img class="logo_24" src="images/logo_24.png" alt=""> </div>
+      <div class="info"> <a href="#">Laptop Lenovo Legion 5 15IAH - 82RC009LVN - i5-12500H/8GB/512GB/RTX3050 4GB</a>
+        <div class="giaphone2">
+          <strong>2,390,000 <sup><u>đ</u></sup> </strong> <del><small>3,390,000 <sup><u>đ</u></sup></small></del>
+        </div>
+      </div>
+      
+      <div class="note">
+        <span class="KM">KM</span>
+        <label> Giảm thêm tới 800.00đ khi mở thẻ t...</label>
+        <strong class="text-orange"> VÀ NHỮNG KM ĐẶC BIỆT KHÁC</strong>
+      </div>  
+    </div>
+  </div>
+
+    </nav>
+
+    <nav class="tincongnghe">
+      <div class="apple-authorised-reseller">
+        <h4>
+          <a href="#"><strong>Tin Công Nghệ</strong></a>
+        </h4>
+    </div>
+
+    <div class="boxnews">
+
+      <div class="boxnews1">
+        <img src="images/tra-tien-xem-video.jpg" alt="">
+        <span><a href="#">TikTok sắp có tính năng mới, người dùng có thể trả tiền để xem một số xem video</a></span>
+      </div>
+      <div class="boxnews1">
+        <img src="images/tren-tay-Xiaomi-13-Lite-1-218x150.jpg" alt="">
+        <span><a href="#">Bất ngờ xuất hiện hình ảnh trên tay Xiaomi 13 Lite dù chưa ra mắt</a></span>
+      </div>
+      <div class="boxnews1">
+        <img src="images/don-dat-truoc-Galaxy-S23-2-218x150.jpg" alt="">
+        <span><a href="#">Hot: Galaxy S23 series đạt mốc hơn 1 triệu đơn đặt trước tại Hàn Quốc</a></span>
+      </div>
+      
+    </div>
+
+    <div class="apple-authorised-reseller">
+      <h4>
+        <a href="#"><strong>Khách Hàng Của Hoàng Hà</strong></a>
+      </h4>
+  </div>
+
+    <div class="thongtinkh">
+      <div class="boxthongtin">
+        <img src="images/vdv-nguyen-huy-hoang.png" alt="">
+        <div>
+          <h2>Nguyễn Huy Hoàng</h2>
+          <h4>Vận Động Viên Bơi Lội</h4>
+          <div class="notethongtin">Với mội vận động viên thể thao,
+             Hoàng luôn ưu tiên việc chăm sóc sức khỏe bản thân.
+              Lịch thi đấu dày đặc, nay Hoàng mới có dịp quay trở lại cửa hàng công nghệ yêu thích 
+              - Hoàng Hà Mobile chi nhánh quận 1, tp.HCM để rinh về chiếc đồng hồ Garmin Fenix 7 
+              phục vụ cho quá trình tập luyện và thi đấu thể thao</div>
+        </div>
+      </div>
+
+      <div class="boxthongtin">
+        <img src="images/anh-cua-linh.png" alt="">
+        <div>
+          <h2>VĐV Châu Tuyết Vân</h2>
+          <h4>VĐV Đội tuyển Teakwondo Việt Nam</h4>
+          <div class="notethongtin">
+            Vân thấy giá bán ở Hoàng Hà Mobile tốt hơn các bên khác khá nhiều, các sản phẩm cũng phong phú và đa dạng. Vân thường qua shop để mua đồng hồ thông minh luyện tập thể thao hoặc tablet.
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ganfooter">
+      <img src="images/footer.jpg" alt="">
+    </div>
+    </nav>
+
+    <footer>
+      <div class="containerfooter">
+        <div class="bg">
+          <div class="link-content">
+            <div class="boxlink">
+              <h5> <a href="#">Hỗ Trợ - Dịch Vụ</a> </h5>
+              <ul>
+                <li> <a href="#">Mua hàng trả góp</a> </li>
+                <li> <a href="#">hướng dẫn đặt hàng và thanh toán</a> </li>
+                <li> <a href="#">Tra cứu đơn hàng</a> </li>
+                <li> <a href="#">Chính sách bảo hành</a> </li>
+                <li> <a href="#">Câu hỏi thường gặp</a> </li>
+                <li> <a href="#">Phạm vi, điều khoản gói bảo hành</a> </li>
+                <li> <a href="#">Chính sách giải quyết</a> </li>
+                <li> <a href="#">Điều khoản mua bán hàng hóa</a> </li>
+                <li> <a href="#">Chính sách giải quyết khiếu nại</a> </li>
+                <li> <a href="#">Câu hỏi thường gặp</a> </li>
+              </ul>
+            </div>
+
+            <div class="boxlink">
+              <h5> <a href="#">Thông Tin Liên Hệ</a> </h5>
+              <ul>
+                <li> <a href="#">Bán Hàng Online</a> </li>
+                <li> <a href="#">Chăm sóc Khách hàng</a> </li>
+                <li> <a href="#">Hỗ Trợ Kỹ thuật</a> </li>
+                <li> <a href="#">hỗ trợ bảo hành & Sửa chửa</a> </li>
+                <li> <a href="#">Liên Hệ khối văn phòng</a> </li>
+              </ul>
+            </div>
+
+            <div class="boxlink">
+              <h5> <a href="#">Hệ Thống 124 Siêu thị trên toàn quốc</a> </h5>
+              <ul>
+                <li> <a href="#">Danh sách 124 siêu thị trên toàn quốc</a> </li>
+                
+              </ul>
+            </div>
+
+            <div class="boxlink">
+              <img src="images/fotterrr.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="if">
+            <p> © 2020. CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ. MST: 0106713191. (Đăng ký lần đầu: Ngày 15 tháng 12 năm 2014, Đăng ký thay đổi ngày 24/11/2022)</p>
+            <p> GP số 426/GP-TTĐT do sở TTTT Hà Nội cấp ngày 22/01/2021</p>
+            <p>Địa chỉ: Số 89 Đường Tam Trinh, Phường Mai Động, Quận Hoàng Mai, Thành Phố Hà Nội, Việt Nam. Điện thoại: 1900.2091. Chịu trách nhiệm nội dung: Hoàng Ngọc Chiến.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>

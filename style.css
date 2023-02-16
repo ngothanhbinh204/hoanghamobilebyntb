@@ -1,0 +1,757 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+div{
+    display: block;
+}
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.row1{
+    width: 100%;
+    display: inline-flex;
+    background: #00483d;
+    padding: 6px 0;
+    
+}
+.header{
+    height: 207px;
+    width: 1200px;
+}
+.row1 a:hover{
+    
+    color: #7fd6cb;
+    
+}
+.container-heading{
+    padding: 20px 0;
+    display: flex   ;
+}
+
+.container-heading.logo{
+    width: 256px;
+    padding-right: 10px;
+}
+.container-menu ul a{
+    padding-right: 5px;
+}
+.boder{
+    background: #fff ;
+    border-radius: 15px;
+}
+.menu>i{
+    color: white;
+    font-size: 20px;
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: beige;
+}
+/* a:hover{
+    color: #7fd6cb;
+} */
+.row1 a{
+    font-size: 14px;
+    padding-left: 3px;
+}
+.row1text{
+    padding-left: 320px;
+}
+.row1{
+    width: 100%;
+}
+.logo{
+    width: 256px;
+    padding-right: 10px;
+}
+.search-box{
+    flex-basis: 100%;
+    padding: 2px 0 0 20px;
+    vertical-align: top;
+    position: relative;
+}
+.boder{
+    background: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 6px #ccc;
+}
+.search{
+    box-shadow: 0 4px 6px #ccc;
+    position: absolute;
+    right: 4px;
+    top: -5px;
+    background: #00483d;
+    background-image: linear-gradient(#00917a,#00483d);
+    border: none;
+    border-radius: 17px;
+    width: 42px;
+    height: 42px;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+input{
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    width: 100%;
+    font-weight: bold
+}
+.order-tools{
+    display: flex;
+    width: 220px;
+    vertical-align: top;
+    padding-left: 25px;
+}
+.icon{
+    font-size: 30px;
+    position: absolute;
+    left: 7px;
+}
+.checkdonhang a{
+    display: block;
+    background: #00483e;
+    border-radius: 10px;
+    padding: 6px 8px;
+    box-shadow: 0 4px 6px #ccc;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    width: 110px;
+    height: 35px;
+    position: relative;
+}
+.checkdonhang a:hover{
+    color:#c5f1ec;
+    
+}
+.text{
+    text-align: left;
+    margin-left: 40px;
+    display: flex;
+}
+.icongiodo{
+    color: #00483e;
+    font-size:40px;
+    margin-left: 15px;
+}
+nav{
+    display: block;
+}
+.container-menu{
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 6px #ccc;
+}
+ul.root{
+    background: #00483d;
+    box-shadow: 0 4px 6px #ccc;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+}
+.dienthoaididong{
+    margin: 8px 14px 4px 14px;
+    display: inline-flex
+}
+.textdienthoai{
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    white-space: nowrap;
+}
+ul.root a{
+    margin: 10px 0px 4px 0px;
+    display: inline-flex;
+    font-size: 30px;
+}
+.po:hover{
+    
+   color:aquamarine;
+  
+}
+.po{
+    position:relative;
+}
+.po-a{
+    position: absolute;
+    top: -14px;
+    left: 17px;
+}
+.ảnh-tỉnh>img{
+    width: 50px;
+    bottom: 50px;
+    left: 5px;
+    position: fixed;
+    box-shadow: 6px 4px 6px #ccc;
+    border-radius: 30px;
+}
+.banner1>img{
+    top: 200px; 
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+    left: 15%px;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    width: 100%;
+    border: #7fd6cb;
+    
+}
+.box1{
+    height: 40px;
+     width: 24%;
+     border: 1px  black;
+     box-shadow: 0 4px 6px #ccc;
+     text-align: center;
+     margin: 1px;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+    color:rgb(65, 63, 63);
+    line-height: 40px;
+    margin-right: 10px;
+}
+.banner21>img{
+   margin: 20px 3px 0 0;
+   width: 305px;
+    height: 154px;
+    float: left;
+}
+.banner2{
+    position: relative;
+}
+.banner2>img{
+    position: absolute;
+    left: 0;
+    top: 750px;
+}
+.flashsale{
+    margin-top: 250px;
+}
+.textflashsale ul li{
+    list-style: none;
+    color: #00483d;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 30px;
+    color: orangered;
+}
+.row3{
+    margin-top: 50px;
+    width: 700px;
+    height: 300px;
+    border: 2 solid red;
+}
+
+.blockfs a{
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    color:#00483d;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #00483e;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    right: 60px;
+    margin-right: 100px;
+}
+.blockfs a:hover{
+    color: wheat;
+    background-color: #00917a;
+    border-bottom: 4px solid orange;
+}
+.smartphone{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px #ccc;
+    
+    
+    
+}
+
+
+/* .boxphone1{
+    background-color: rgb(255, 255green, 255blue);
+    text-align: center;
+    width: 20%;
+    margin: 20px 10px 0 0;
+}
+.boxphone2{
+    background-color: rgb(255 255 255 / 25%);
+    text-align: center;
+    width: 20%;
+    position: relative;
+    left: 320px;
+    bottom: 272px;
+}
+.boxphone3{
+    background-color: rgb(255 255 255 / 25%);
+    text-align: center;
+    width: 20%;
+    position: relative;
+    left: 622px;
+    top: -544px;
+}
+.boxphone4{
+    right: -52px;
+    background-color: rgb(255 255 255 / 25%);
+    text-align: center;
+    width: 20%;
+    top: 19px;
+    position: absolute;
+} */
+/* .apple-authorised-reseller{
+    height: 400px;
+    position: relative;
+    top: 700px;
+    background-color: #00483d;
+    border: 5px solid red;
+}
+.apple-authorised-reseller a{
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    margin: 2px;
+    background-color: #333;
+    text-align: center; 
+}*/
+/* .sp2{
+    margin-left: 20px;
+   
+    border: 2px solid red;
+  
+    margin: 20px;
+}
+.sp3{
+    margin-left: 20px;
+    ;
+    border: 2px solid rgb(54, 214, 148);
+    margin: 20px;
+} */
+.tenphone{
+    font-weight: bold;
+    text-align: center;
+}
+.giaphone{
+    text-align: center;
+}
+.giaphone strong{
+    color:#fd475a;
+}
+.giaphone small{
+    color: #333;
+}
+.giaphone del{
+    color: #333;
+}
+.qqq{
+    margin-top: 50px;
+    padding: 5px;
+    width: 98%;
+    height: 200px;
+    
+}
+.flashsaletext{
+    line-height: 60px;
+    font-size: 30px;
+    color: orangered;
+}
+.qqq a{
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    color:#00483d;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #00483e;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    right: 60px;
+    margin-right: 100px;
+}
+.qqq .boxtest{
+    margin-top: -50px ;
+    float: right;
+    padding: 5px;
+    width: 25%;
+    height: 50px;
+    
+}
+.qqq .boxtest a:hover{
+
+    color: whitesmoke;
+    background-color: #00917a;
+    border-bottom: 4px solid orange;
+}
+.b3{
+    color: whitesmoke;
+    background-color: #00917a;
+    border-radius: 8px;
+}
+.phone{
+    width: 280px;
+    text-align: center;
+    float: left ;
+    margin: 10px;
+}
+.imgphone:hover{
+    transform: rotate(10deg);
+}
+.cothebansethich{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.textcothebansethich{
+    border-radius: 5px;
+}
+.textcothebansethich:hover{
+    background-color:wheat ;
+    border-radius: 20px;
+    box-shadow: 0 6px 6px #ccc;
+
+}
+.cothebansethich>.textcothebansethich>a:hover{
+    color:brown;
+}
+.cothebansethich>.textcothebansethich>a{
+    font-size: 20px;
+}
+aside .textcothebansethich{
+    background-color:white;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+aside a{
+    box-sizing: border-box;
+    width: 90px;
+    color: black;
+}
+.other{
+    width: 100%;
+    height: 315px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px #ccc;
+}
+.imgphone{
+    max-width: 98%;
+    height: 180px;
+    width: 160px;
+    border-bottom: 10px;
+}
+.other2{
+    box-sizing: border-box;
+    width: 235px;
+    height: 280px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px #ccc ;
+    padding-top: 18px;
+    margin-left: 5px;
+}
+.apple-authorised-reseller{
+    margin-top: 10px;
+    background: #009981;
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+}
+ 
+.boxhome1>.apple-authorised-reseller> h4{
+    padding: 3px 60px 6px 35px;
+    margin: 0 0 0 60px;
+    background: #00483d;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.apple-authorised-reseller> h4 a{
+    color: white;
+    font-size: 20px;
+}
+.apple-authorised-reseller> h4 a:hover{
+    color: #00917a;
+    margin-left: 20px;
+}
+
+.box-product-home{
+    display: flex;
+    flex-flow:wrap;
+    flex-wrap: wrap;
+    flex-direction: initial;
+}
+.lst-product{
+    display: flex;
+    flex-flow: wrap;
+    animation: append .2s ease-in-out;
+}
+.item{
+    margin: 0 10px 10px 0;
+    width: 235px;
+    background: #fff;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+.box-product-home>.item>img{
+    width: 150px;
+    margin: 30px auto 0 auto;
+}
+.sticker-apple{
+    position: absolute;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.sticker-apple-left{
+    left: 5px;
+    text-align: left;
+}
+.info{
+    color: #000;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    padding: 0 10px 15px 10px;
+}
+.giaphone2> strong{
+    font-size: 16px;
+    color: #fd475a;
+}
+.giaphone2> del{
+    color: #333;
+}
+.info>a{
+    color: #000;
+}
+.note{
+    text-align: left;
+    margin: 0;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+}
+.item>.note>.KM{
+    display: inline-block;
+    background: #f7941e 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 11px;
+}
+.text-orange{
+    color: #f7941e;
+}
+.box-product-homewatch{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow:wrap;
+    flex-wrap: wrap;
+    flex-direction: initial;
+}
+.itemwatch{
+    margin: 15px auto;
+    width: 235px;
+    height: 400px;
+    background: #fff;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.notewatch{
+    text-align: left;
+    margin: 0;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+}
+.itemwatch>.notewatch>.KMwatch{
+    display: inline-block;
+    background: #f7941e 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 11px;
+}
+.apple-authorised-reseller{
+    margin-top: 10px;
+    background: #009981;
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+}
+ 
+.tincongnghe>.apple-authorised-reseller> h4{
+    padding: 3px 60px 6px 35px;
+    margin: 0 0 0 60px;
+    background: #00483d;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.apple-authorised-reseller> h4 a{
+    color: white;
+    font-size: 20px;
+}
+.apple-authorised-reseller> h4 a:hover{
+    color: #00917a;
+    margin-left: 20px;
+}
+.boxnews{
+    float: le;
+}
+.boxnews1{
+    position: relative;
+    margin: 0 20px 10px 0;
+    width: 400px;
+    background: #fff;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    display: flex;
+    float: left;
+}
+.boxnews1>img{
+    width: 120px;
+    margin: 10px 10px;
+}
+.boxnews1>span> a{
+    font-weight: bolder;
+    font-size: large;
+    color: #000;
+}
+.boxnews1>span> a:hover{
+    color: #009981;
+}
+.thongtinkh{
+    position: relative;
+    background-color: white;
+    height: 250px;
+    background: #fff 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    padding: 25px 50px;
+    margin-top: 20px;
+}
+.boxthongtin{
+   margin: 10px 10px;
+    display: flex;
+    width: 500px;
+    float: left;
+    
+}
+.boxthongtin>img{
+    width: 220px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.notethongtin{
+    
+    color: #191919;
+    text-align: justify;
+    
+}
+h4{
+    color: #009981;
+    font-style: italic;
+}
+.ganfooter{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+footer>.bg>.boxlink>div{
+    width: 16.6666%;
+}
+footer>.bg>a{
+    color: #ddd;
+}
+.link-content{
+    display: flex;
+    padding: 20px 10px;
+}
+.bg{
+    background-color: #00483d;
+    border-radius: 10px;
+}
+.boxlink{
+    margin: 10px 20px;
+}
+.boxlink> ul{
+    list-style: none;
+}
+.boxlink> ul > li a{
+    color: #ccc;
+    font-weight: lighter;
+}
+.boxlink> ul > li a:hover{
+    color:white;
+}
+.if{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.if> p{
+    margin: 0 0 5px 0;
+    font-size: 9pt;
+    color: white;
+    font-size:9pt;
+
+}
+
