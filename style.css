@@ -796,7 +796,7 @@ footer>.bg>a{
 }
 .img-content>a>img:hover{
     border-radius: 10px;
-    filter: drop-shadow(0 15px 10px palevioletred);
+    filter: drop-shadow(0 15px 90px palevioletred);
 }
 .img-content>.icontym{
     position: absolute;
