@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Hà Mobile_By NgoThanhBinh</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+        <div id="header">
+        <div class="row1">
+            <div class="row1text">
+                <a href="#">Bản Mobile</a>|
+                <a href="#">Giới Thiệu</a>|
+                <a href="#">Sản phẩm đã xem</a>|
+                <a href="#">Trung Tâm Bảo Hành</a>|
+                <a href="#">Hệ Thống 124 Siêu Thị</a>|
+                <a href="#">Tuyển Dụng</a>|
+                <a href="#">Tra cứu đơn hàng</a>|
+                <a href="#">Đăng nhập</a>|
+            </div>
+        </div>
+     <div class="heading">
+            <div class="container-heading">
+              <div class="logo">
+                <a href="#" title="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ"></a>
+                <img src="images/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+              </div>
+              <div class="search-box">
+                <form method="get" action="/tim-kiem" onsubmit="return submitSearch(This);"
+                enctype="application/x-www-form-urlencoded">
+                    <div class="boder">
+                      <input type="text" placeholder="Hôm nay bạn cần tìm kiếm gì?" 
+                      autocomplete="off">
+                      <button type="submit" class="search"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                </div>
+                </form>
+              </div>
+              <div class="order-tools">
+                <div class="checkdonhang">
+                    <a id="btncheckorder" href="#"> <span class="icon"> 
+                      <i class="fa fa-truck" aria-hidden="true"></i></span>
+                    <span class="text">Kiểm Tra Đơn Hàng</span> 
+                </a>
+                </div>
+                <div class="giodo">
+                    <a href="#">
+                        <span class="icongiodo"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <nav style="z-index: 1000;">
+          <div class="container-menu">
+            <ul class="root">
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-mobile " aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐIỆN THOẠI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐỒNG HỒ </span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-laptop " aria-hidden="true"></i>
+                  <span class="textdienthoai">LAPTOP</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-desktop " aria-hidden="true"></i>
+                  <span class="textdienthoai">MÀN HÌNH</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-television " aria-hidden="true"></i>
+                  <span class="textdienthoai">SMART TV</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-keyboard-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">TABLE</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-headphones " aria-hidden="true"></i>
+                  <span class="textdienthoai">ÂM THANH</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-home " aria-hidden="true"></i>
+                  <span class="textdienthoai">SMART HOME</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-plug " aria-hidden="true"></i>
+                  <span class="textdienthoai">PHỤ KIỆN</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-gamepad " aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐỒ CHƠI CÔNG NGHỆ</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-arrows " aria-hidden="true"></i>
+                  <span class="textdienthoai">MÁY TRÔI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-wrench " aria-hidden="true"></i>
+                  <span class="textdienthoai">SỮA CHỮA</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-address-card-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">SIM THẺ</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-newspaper-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">TIN TỨC</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                  <span class="textdienthoai">ƯU ĐÃI</span>
+                  </div>
+                </a>
+              </li>
+              
+             
+            </ul>
+          </div>
+        </nav>
+
+        <div class="content">
+            <div class="top-content">
+                <ul>
+                    <strong>
+                        <li> <a href="ASM.html"> <i class="fa fa-home " aria-hidden="true"></i>  Trang Chủ </a> <span>></span> </li>
+                        <li> <a href="#">Điện Thoại </a> <span>></span> </li>
+                        <li> <a href="#">Apple </a> <span>></span> </li>
+                        <li> <a href="#">Iphone 14 Series </a> <span>></span> </li>
+                        <li> <a style="color:#009981;" href="#">Apple Iphone 14 ProMax - 256GB - Chính hãng VN/A </a> </li>
+                    </strong>
+                </ul>
+            </div>
+             <h2>Điện thoại di động Apple iPhone 14 Pro Max - 256GB - Chính hãng VN/A</h2>
+
+          <div class="body-content">
+            <div class="content-sp">
+              <div class="img-content">
+               <a href="#"> <img src="images/iphone14promax_box-home.png" width="350px" height="450px" alt="" title="Ai Phoone 14 Prồ Mắc Mắm Tôm"></a>
+                <div class="icontym">
+                  <a href="#">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+              </div>
+              <div class="box-contentphone">
+                <div class="bottom-imgcontent">
+                  <div class="iconlist">
+                    <img src="images/iconlist.jpg" alt="">
+                  </div>
+                  <div class="bottom-imgcontent_1">
+                    <a href="#"><img src="images/iphone14-xanh.png" title="iphone xanhh" alt=""></a>
+                  </div>
+
+                  <div class="bottom-imgcontent_1">
+                    <a href="#"><img src="images/iphonedo.png" title="iphone đỏa" alt=""></a>
+                  </div>
+
+                  <div class="bottom-imgcontent_1">
+                    <a href="#"><img src="images/iphone12trangtim.png" title="iphone trắng tím" alt=""></a>
+                  </div>
+
+                  <div class="iconlist2">
+                    <img src="images/iconlistotate.jpg" alt="">
+                  </div>
+
+                </div>
+              </div>
+             </div>
+            </div>
+            <!-- end top-content--------------------------- -->
+            
+              <div class="content-center">
+                <p class="price-content-center">
+                  <strong>30,590,00 ₫</strong>
+                  <i> | Giá đã bao gồm 10% VAT</i>
+                </p>
+
+                <p class="freeship">
+                  <i class="fa fa-truck" aria-hidden="true"></i>
+                  <span>Miễn Phí Vận Chuyển Toàn Quốc</span>
+                </p>
+
+                <div class="chooseVersion">
+                  <strong><span>Lựa chọn phiên bản</span></strong>
+                  <div class="version-all">
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">123GB</p>
+                        </span>
+                        <strong style="color: #fd475a;">27,890,000 ₫</strong>
+                      </a>
+                    </div>
+  
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">256GB</p>
+                        </span>
+                        <strong style="color: #fd475a;">30,590,000 ₫</strong>
+                      </a>
+                    </div>
+  
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">512GB</p>
+                        </span>
+                        <strong style="color: #fd475a;">36,180,000 ₫</strong>
+                      </a>
+                    </div>
+  
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">1TB</p>
+                        </span>
+                        <strong style="color: #fd475a;">41,390,000 ₫</strong>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="chooseVersion">
+                  <strong><span>Lựa chọn màu và xem địa chỉ còn hàng</span></strong>
+                  <div class="version-all">
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">Space Black</p>
+                        </span>
+                        <strong style="color: #fd475a;">30,890,000 ₫</strong>
+                      </a>
+                    </div>
+  
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">Silver</p>
+                        </span>
+                        <strong style="color: #fd475a;">30,690,000 ₫</strong>
+                      </a>
+                    </div>
+  
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">Bold</p>
+                        </span>
+                        <strong style="color: #fd475a;">36,180,000 ₫</strong>
+                      </a>
+                    </div>
+  
+                    <div class="version">
+                      <a href="#">
+                        <span>
+                           <img src="images/iconclick.jpg" alt=""> 
+                            <p style="color: black;">Deep Purple</p>
+                        </span>
+                        <strong style="color: #fd475a;">41,390,000 ₫</strong>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content-center-km">
+                  <strong style="color: #009981;" class="textkm">KHUYẾN MÃI</strong>
+                  <ul>
+                    <li><span>KM 1</span></li>
+                    <li>Thu cũ đổi mới giảm tới 1.000.000đ - <a href="#">(Xem Chi Tiết)</a></li>
+                  </ul>
+                </div>
+
+                <div class="box-action">
+                  <div class="box-action action1">
+                    <a href="#">
+                      <strong><p>MUA NGAY</p></strong>
+                      <span>Giao tận nhà(COD)
+                        <br>
+                      Hoặc nhận tại cửa hàng</span>
+                    </a>
+                  </div>
+
+                  <div class="box-action action2">
+                    <a href="#">
+                      <strong><p>TRẢ GÓP</p></strong>
+                      <span>Công tu Tài chính
+                        <br>
+                      Hoặc 0% qua thẻ tín dụng</span>
+                    </a>
+                  </div>
+
+                  <div class="box-action action3">
+                    <a href="#">
+                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      <strong><span class="daucong">+</span></strong>
+                      <br>
+                      <span>Thêm Giỏ Hàng</span>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="uudai">
+                  <div class="uudai1">
+                    <strong><p>ƯU ĐÃI THANH TOÁN</p></strong>
+                    <ul>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Giảm thêm tới 300.000đ khi thanh toán qua VNPay - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Giảm theem30% tới 1,2 triệu khi mở thẻ TP Bank EVO (Không áp dụng chung VNPay, MOCA) - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Giảm thêm 2% tới 300.000đ khi thanh toán qua MOCA - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Hỗ trợ trả góp 0% - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      
+                    </ul>
+                  </div>
+
+                  <div class="uudai1">
+                    <strong><p>ƯU ĐÃI ĐI KÈM</p></strong>
+                    <ul>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Tặng sim Reddi 055 chưa bao gồm gói cước (Trừ shop SiS) Hoặc sim data Mobifone Hera 5G (2GB/ngày) (Chưa bao gồm tháng đầu tiên) - Lưu ý: áp dụng mua trực tiếp tại cửa hàng - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Tặng esim data Mobifone Hera 5G (2GB/ngày) (Chưa bao gồm tháng đầu tiên) - Lưu ý: chỉ áp dụng mua trực tiếp tại cửa hàng. - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Giảm thêm 200.00đ cho tất cả sản phẩm Màn hình khi mua kèm Laptop, Macbook, Máy tính bảng và điện thoại - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Ưu đãi giảm thêm 100.000đ khi mua Microsoft Office kèm Laptop, Macbook,Máy tính bảng, điện thoại - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+                      
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Mua kèm ốp lưng Clear Case with Magsafe Chính hãng giá chỉ từ 790.000đ - <a href="#">(Xem Chi Tiết)</a></span>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="uudai2">
+
+                  </div>
+                </div>
+              </div>
+              <!-- end content-center--------------------------- -->
+
+              <div class="content-right">
+                <div class="top-content-right">
+                  <h5>THÔNG TIN BẢO HÀNH</h5>
+                  <p>
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                  <span> Bảo hành chính hãng 12 tháng tại trung tâm bảo hành ủy quyền Apple Việt Nam</span>
+                </p>
+                <p>
+                  <i class="fa fa-shield" aria-hidden="true"></i>
+                <span> Bao sài lỗi 1 đổi 1 trong 30 ngày với lỗi phần cứng do nhà sản xuất</span>
+              </p>
+                </div>
+
+                <div class="body-content-right">
+                   <h5>CHỌN MÀU VÀ XEM ĐỊA CHỈ CÒN HÀNG</h5>
+                   <div class="body-content-right boxcon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span><strong>TP HCM</strong></span>
+                   </div>
+                   <p>Còn <strong>XX</strong> cửa hàng còn sản phẩm</p>
+                   <div class="store">
+                    <ul>
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 397 Nguyễn Thị Tú, Phường Bình Hưng Hòa B , Quận Bình Tân, TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 663-665 Hậu Giang, Phường 11 , Quận 6 TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 107C Quang Trung, P10, Quận Gò Vấp, TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> Số 384 Võ Văn Ngân, P.Bình Thọ, Q.Thủ Đức TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 572-574 Tỉnh Lộ 10, Phường Bình Trị Đông, Quận Bình Tận TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 503 Âu Cơ, Q.Tân Phú, TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 374 Hoàng Văn Thụ, Quận Tân Bình, TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+
+                      <li> 
+                        <p class="textstore">
+                          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span> 419 Nguyễn Ảnh Thủ (đối diện chợ Chung Tránh) TP.Hồ Chí Minh</span>
+                        </p>
+                        <p class="textstore2">
+                          <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          <a style="color: #009981 ;" href="#"><strong>0788.665.2684</strong></a>
+                          <span> - </span>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <a href="#"><strong>Chỉ đường</strong></a>
+                        </p>
+                      </li>
+                      
+                    </ul>
+                   </div>
+                </div>
+              </div>
+              <!-- end content-right--------------------------- -->
+            </div>
+            <!-- end body-content -->
+            
+          </div>
+          <!-- end content -->
+          
+       </div>
+       <!-- end header -->
+        
+      
+  </div>
+  </body>
+  </html>
+  
