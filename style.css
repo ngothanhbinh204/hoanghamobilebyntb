@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
+    list-style: none;
 }
 div{
     display: block;
@@ -175,8 +175,12 @@ ul.root{
     max-width: 1200px;
 }
 .dienthoaididong{
-    margin: 8px 14px 4px 14px;
-    display: inline-flex
+    margin: 5px 14px 4px 8px;
+    
+}
+
+.dienthoaididong:hover>.submenu{
+    display: block;
 }
 .textdienthoai{
     display: block;
@@ -1082,4 +1086,34 @@ list-style: none;
 }
 .textstore2> i{
     margin-right: 5px;
+}
+.submenu{
+   
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #ccc;
+    text-align: left;
+    display: none;
+    justify-content: left;
+}
+.submenu>menu>ul>li{
+    list-style: none;
+}
+.submenu_non{
+    display: flex;
+}
+.menu>ul>li{
+    padding: 10px;
+    font-weight:200;
+    font-size: 20px;
+}
+.menu>h6{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.menu{
+    margin: 15px;
+    padding-right: 20%;
+   
 }
